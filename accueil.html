@@ -1,17 +1,17 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="fr">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
-  <meta name="description" content="">
+  <title>TerreDeGeek, page d'accueil</title>
+  <meta name="description" content="La page d'accueil de TerreDeGeek">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR|Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -24,9 +24,9 @@
       <h1>TerreDeGeek</h1>
       <nav>
             <ul>
-                  <li>L'entreprise</li>
-                  <li>Les produits</li>
-                  <li>Nous contacter</li>
+                  <li><a href="accueil.html">Accueil</a></li>
+                  <li><a href="presentation.html">L'entreprise</a></li>
+                  <li><a href="all_produit.html">Les produits</a></li>
             </ul>
       </nav>
 </header>
@@ -37,8 +37,37 @@
 <!--~~~~~~~~~~~~~~~~~~~~
         Stard main
 ~~~~~~~~~~~~~~~~~~~~~-->
-
-
+<main>
+      <section>
+            <h2>Une petite vidéo de présentation de l'entreprise!</h2>
+            <div id="presentationvideo">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/Y80juYcu3ZI?rel=0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+      </section>
+      <section>
+            <h2>Une petite sélection de nos produits!</h2>
+            <div id="carteaccueil">
+                  <section class="carteaccueil">
+                        <h3>3-Tasten Maus Microsoft</h3>
+                        <p>Souris filaire, 3 boutons</p>
+                        <a href="produit1.html"><img src="img/3-Tasten-Maus_Microsoft.jpg" alt="Une image de la 3-Tasten Maus Microsoft" width="130"></a>
+                  </section>
+                  <section class="carteaccueil">
+                        <h3>Pc portable ASUS x550vx</h3>
+                        <p>IntelCore i5, 6300HQ, 8Go, 1To, 2Go</p>
+                        <a href="produit2.html"><img src="img/Pc_portable_ASUS_x550vx.jpg" alt="Une image du Pc portable ASUS x550vx" width="150"></a>
+                  </section>
+                  <section class="carteaccueil">
+                        <h3>Samsung Galaxy S7 edge 32GB</h3>
+                        <p>Ecran 5,5pouces, 4G LTE, 12MP</p>
+                        <a href="produit3.html"><img src="img/Galaxy_S7_edge_32GB.jpeg" alt="Une image du Galaxy S7 edge 32GB" width="150"></a>
+                  </section>
+            </div>      
+            <aside id="asideaccueil">
+                  <p>Pour voir d'avantage de nos articles, rendez-vous dans la page tous les produits!</p>
+            </aside>
+      </section>
+</main>
 
 <!--~~~~~~~~~~~~~~~~~~~~
         End main
@@ -46,7 +75,11 @@
 <!--~~~~~~~~~~~~~~~~~~~~
       Stard footer
 ~~~~~~~~~~~~~~~~~~~~~-->
-
+<footer>
+      <ul>
+            <li><a href="contact.html">Nous contacter</a></li>
+      </ul>
+</footer>
 <!--~~~~~~~~~~~~~~~~~~~~
       End footer
 ~~~~~~~~~~~~~~~~~~~~~-->
