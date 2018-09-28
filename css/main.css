@@ -127,6 +127,12 @@ li {
     margin-left: 20%;
     list-style: none;
 }
+mark {
+    background-color: white;
+}
+.underline {
+    text-decoration: underline;
+}
 /*
 End commons rules
 */
@@ -136,7 +142,11 @@ Start main rules
 h1, h2, #presentationvideo, #asideaccueil, .carteaccueil {
     text-align: center;
 }
-#carteaccueil {
+h2 {
+    margin-top: 5%;
+    text-decoration: underline;
+}
+#carteaccueil, #googlemap {
     display: flex;
     justify-content: center;
 }
@@ -152,6 +162,17 @@ h1, h2, #presentationvideo, #asideaccueil, .carteaccueil {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+#asideaccueil, h2, #googlemap {
+    margin-bottom: 5%;
+}
+#p_presentation {
+    text-align: justify;
+    margin: 8%; 
+}
+#name_sarl {
+    flex-direction: column;
+    margin-left: 5%;
 }
 /*
 End main rules
