@@ -115,6 +115,10 @@ End utility classes
 /*
 Start commons rules
 */
+h2 {
+    margin-top: 5%;
+    text-decoration: underline;
+}
 nav, footer ul {
     background-color: #008B8B;
 }
@@ -130,7 +134,7 @@ header li, footer li {
 mark {
     background-color: white;
 }
-.underline {
+.underline, legend {
     text-decoration: underline;
 }
 .price_products {
@@ -143,12 +147,8 @@ End commons rules
 /*
 Start main rules
 */
-h1, h2, #presentationvideo, #asideaccueil, .carteaccueil, .price_products {
+h1, h2, #presentationvideo, #asideaccueil, .carteaccueil, .price_products, .form, legend {
     text-align: center;
-}
-h2 {
-    margin-top: 5%;
-    text-decoration: underline;
 }
 #carteaccueil, #googlemap {
     display: flex;
@@ -178,9 +178,15 @@ h2 {
     flex-direction: column;
     margin-left: 5%;
 }
-.div_products {
+.div_products, .form {
     border: 1px black solid;
     margin: 5% 15%;
+}
+legend {
+    width: 100%;
+}
+.form {
+    background-color: rgb(174, 228, 210);
 }
 /*
 End main rules
@@ -194,20 +200,6 @@ footer li {
 /*
 End footer rules
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================

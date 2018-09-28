@@ -36,9 +36,51 @@
 <!--~~~~~~~~~~~~~~~~~~~~
     Stard main
 ~~~~~~~~~~~~~~~~~~~~~-->
-
-
-
+<main>
+  <section class="form">
+    <h2>Nous contacter</h2>
+    <p>Merci de remplir le formulaire de contact</p>
+  </section>
+  <div class="form">
+    <form method="POST" action="#.php">
+      <fieldset>
+        <legend>Vos coordonnées</legend>
+          <p>
+            <label for="name">Votre nom</label> : <input type="text" name="name" id="name" size="19" placeholder="Ex : Dupont James" maxlength="20" required autofocus/>
+          </p>
+          <p>
+            <label for="age">Votre âge</label> : <input type="number" name="age" id="age" placeholder="Ex : 29" max="100"/>
+          </p>
+          <p>
+            <label for="tel">Votre téléphone</label> : <input type="tel" name="tel" id="tel" size="24" placeholder="Ex: 0701010101"/>
+          </p>
+          <p>
+            <label for="mail">Votre adresse e-mail</label> : <input type="email" name="mail" id="mail" placeholder="Ex: dupond.james@gmail.com" maxlength="30" size="28" required/>
+          </p>
+      </fieldset>
+      <fieldset>
+        <legend>Le motif de la demande de contact</legend>
+          <p>
+            <label for="reason">Pour quelle raison nous contactez-vous ?</label><br/>
+            <select name="reason" id="reason" required>
+                <optgroup label="Catégorie">
+                <option value="delivery_information">Renseignements livraison</option>
+                <option value="store_information">Renseignements magasin</option>
+                <option value="products_information">Renseignements produits</option>
+                <option value="break">Casse</option>
+                <option value="refund">Remboursement</option>
+                </optgroup>
+            </select>
+          </p>
+          <p>
+            <label for="message">Quel est votre message ?</label><br />
+            <textarea name="message" id="message" maxlength="500" placeholder="Ecrivez votre message" required></textarea>
+          </p>
+      </fieldset>
+      <input type="submit" value="Envoyer"/>
+    </form>
+  </div>
+</main>
 <!--~~~~~~~~~~~~~~~~~~~~
     End main
 ~~~~~~~~~~~~~~~~~~~~~-->
