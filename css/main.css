@@ -99,28 +99,90 @@ textarea {
 /*
 Start utility classes
 */
-
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+header, footer {
+    background-color: #48D1CC;
+    overflow: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Noto Serif KR', sans-serif;
+}
 /*
 End utility classes
 */
 /*
 Start commons rules
 */
-
+nav, footer ul {
+    background-color: #008B8B;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+li {
+    display: inline;
+    margin-left: 20%;
+    list-style: none;
+}
+mark {
+    background-color: white;
+}
+.underline {
+    text-decoration: underline;
+}
 /*
 End commons rules
 */
 /*
 Start main rules
 */
-
+h1, h2, #presentationvideo, #asideaccueil, .carteaccueil {
+    text-align: center;
+}
+h2 {
+    margin-top: 5%;
+    text-decoration: underline;
+}
+#carteaccueil, #googlemap {
+    display: flex;
+    justify-content: center;
+}
+.carteaccueil {
+    background-color: rgb(174, 228, 210);
+    width: 30%;
+    border: 1px black solid;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.carteaccueil img {
+    margin-bottom: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#asideaccueil, h2, #googlemap {
+    margin-bottom: 5%;
+}
+#p_presentation {
+    text-align: justify;
+    margin: 8%; 
+}
+#name_sarl {
+    flex-direction: column;
+    margin-left: 5%;
+}
 /*
 End main rules
 */
 /*
 Start footer rules
 */
-
+footer li {
+    margin-left: 43%;
+}
 /*
 End footer rules
 */
