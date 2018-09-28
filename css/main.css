@@ -135,6 +135,7 @@ mark {
 }
 .price_products {
     font-weight: bold;
+    color: red;
 }
 /*
 End commons rules
