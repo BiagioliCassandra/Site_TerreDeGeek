@@ -122,7 +122,7 @@ a {
     text-decoration: none;
     color: white;
 }
-li {
+header li, footer li {
     display: inline;
     margin-left: 20%;
     list-style: none;
@@ -133,13 +133,16 @@ mark {
 .underline {
     text-decoration: underline;
 }
+.price_products {
+    font-weight: bold;
+}
 /*
 End commons rules
 */
 /*
 Start main rules
 */
-h1, h2, #presentationvideo, #asideaccueil, .carteaccueil {
+h1, h2, #presentationvideo, #asideaccueil, .carteaccueil, .price_products {
     text-align: center;
 }
 h2 {
@@ -157,7 +160,7 @@ h2 {
     margin-left: 1%;
     margin-right: 1%;
 }
-.carteaccueil img {
+.carteaccueil img, .img_products {
     margin-bottom: 10%;
     display: block;
     margin-left: auto;
@@ -173,6 +176,10 @@ h2 {
 #name_sarl {
     flex-direction: column;
     margin-left: 5%;
+}
+.div_products {
+    border: 1px black solid;
+    margin: 5% 15%;
 }
 /*
 End main rules
