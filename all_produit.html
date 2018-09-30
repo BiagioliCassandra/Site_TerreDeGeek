@@ -42,6 +42,7 @@
     <div id="sorts">
       <form method="POST" action="#.php">
         <div>
+        <!--allows to choose the category of the search-->
         <p>
           <select name="sort_category" id="sort_category">
             <optgroup label="Catégories">
@@ -52,11 +53,13 @@
           </select>
         </p>
       </div>
+      <!--allows to choose the price of the search-->
       <div>
         <p>
           <input type="range" min="1" max="2000" step="50">
         </p>
       </div>
+      <!--allows to choose the reviews of the search-->
       <div>
         <p>
           <select name="sort_reviews" id="sort_reviews">
@@ -68,6 +71,7 @@
           </select>
         </p>
       </div>
+      <!--allows to choose the places availability of the search-->
       <div>
         <p>
           <select name="places_availability" id="places_availability">

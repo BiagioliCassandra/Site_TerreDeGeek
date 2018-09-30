@@ -44,6 +44,7 @@
   <div class="form">
     <form method="POST" action="#.php">
       <fieldset>
+        <!--form contact information: name, age, tel and mail-->
         <legend>Vos coordonnées</legend>
           <p>
             <label for="name">Votre nom</label> : <input type="text" name="name" id="name" size="19" placeholder="Ex : Dupont James" maxlength="20" required autofocus/>
@@ -60,18 +61,19 @@
       </fieldset>
       <fieldset>
         <legend>Le motif de la demande de contact</legend>
+        <!--form reason of the contact-->
           <p>
             <label for="reason">Pour quelle raison nous contactez-vous ?</label><br/>
             <select name="reason" id="reason" required>
-                <optgroup label="Catégorie">
-                <option value="delivery_information">Renseignements livraison</option>
-                <option value="store_information">Renseignements magasin</option>
-                <option value="products_information">Renseignements produits</option>
-                <option value="break">Casse</option>
-                <option value="refund">Remboursement</option>
-                </optgroup>
+              <option value="">Choisir une catégorie</option>
+              <option value="delivery_information">Renseignements livraison</option>
+              <option value="store_information">Renseignements magasin</option>
+              <option value="products_information">Renseignements produits</option>
+              <option value="break">Casse</option>
+              <option value="refund">Remboursement</option>
             </select>
           </p>
+          <!--form customer message-->
           <p>
             <label for="message">Quel est votre message ?</label><br />
             <textarea name="message" id="message" maxlength="500" placeholder="Ecrivez votre message" required></textarea>
