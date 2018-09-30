@@ -102,6 +102,7 @@ Start utility classes
 body {
     font-family: 'Open Sans', sans-serif;
 }
+/*remove the border between header, main and footer*/
 header, footer {
     background-color: #48D1CC;
     overflow: hidden;
@@ -147,29 +148,32 @@ End commons rules
 /*
 Start main rules
 */
-h1, h2, #presentationvideo, #asideaccueil, .carteaccueil, .price_products, .form, legend, #sorts, #p_listproducts {
+h1, h2, #presentationvideo, #asidehome, .cardhome, .price_products, .form, legend, #sorts, #p_listproducts {
     text-align: center;
 }
-#carteaccueil, #googlemap {
+#cardhome, #googlemap {
     display: flex;
     justify-content: center;
 }
-.carteaccueil {
+/*Start rules home page*/
+.cardhome {
     background-color: rgb(174, 228, 210);
     width: 30%;
     border: 1px black solid;
     margin-left: 1%;
     margin-right: 1%;
 }
-.carteaccueil img, .img_products {
+.cardhome img, .img_products {
     margin-bottom: 10%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-#asideaccueil, h2, #googlemap {
+#asidehome, h2, #googlemap {
     margin-bottom: 5%;
 }
+/*End rules home page*/
+/*Start rules presentation page*/
 #p_presentation {
     text-align: justify;
     margin: 8%; 
@@ -178,10 +182,12 @@ h1, h2, #presentationvideo, #asideaccueil, .carteaccueil, .price_products, .form
     flex-direction: column;
     margin-left: 5%;
 }
+/*End rules presentation page*/
 .div_products, .form, #sorts {
     border: 1px black solid;
     margin: 5% 15%;
 }
+/*Start rules contact and all porducts page*/
 legend {
     width: 100%;
 }
@@ -192,6 +198,7 @@ legend {
     display: inline-block;
     vertical-align: top;
 }
+/*End rules contact and all products page*/
 /*
 End main rules
 */
