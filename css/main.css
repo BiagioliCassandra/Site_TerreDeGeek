@@ -147,7 +147,7 @@ End commons rules
 /*
 Start main rules
 */
-h1, h2, #presentationvideo, #asideaccueil, .carteaccueil, .price_products, .form, legend {
+h1, h2, #presentationvideo, #asideaccueil, .carteaccueil, .price_products, .form, legend, #sorts, #p_listproducts {
     text-align: center;
 }
 #carteaccueil, #googlemap {
@@ -178,15 +178,19 @@ h1, h2, #presentationvideo, #asideaccueil, .carteaccueil, .price_products, .form
     flex-direction: column;
     margin-left: 5%;
 }
-.div_products, .form {
+.div_products, .form, #sorts {
     border: 1px black solid;
     margin: 5% 15%;
 }
 legend {
     width: 100%;
 }
-.form {
+.form, #sorts {
     background-color: rgb(174, 228, 210);
+}
+#sorts div {
+    display: inline-block;
+    vertical-align: top;
 }
 /*
 End main rules
