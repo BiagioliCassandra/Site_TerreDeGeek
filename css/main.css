@@ -104,7 +104,7 @@ body {
 }
 /*remove the border between header, main and footer*/
 header, footer {
-    background-color: #48D1CC;
+    background-color: #36BBCE;
     overflow: hidden;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -121,7 +121,7 @@ h2 {
     text-decoration: underline;
 }
 nav, footer ul {
-    background-color: #008B8B;
+    background-color: #03899C;
 }
 a {
     text-decoration: none;
@@ -157,7 +157,6 @@ h1, h2, #presentationvideo, #asidehome, .cardhome, .price_products, .form, legen
 }
 /*Start rules home page*/
 .cardhome {
-    background-color: rgb(174, 228, 210);
     width: 30%;
     border: 1px black solid;
     margin-left: 1%;
@@ -191,8 +190,8 @@ h1, h2, #presentationvideo, #asidehome, .cardhome, .price_products, .form, legen
 legend {
     width: 100%;
 }
-.form, #sorts {
-    background-color: rgb(174, 228, 210);
+.form, #sorts, .cardhome {
+    background-color: #5FC0CE;
 }
 #sorts div {
     display: inline-block;
