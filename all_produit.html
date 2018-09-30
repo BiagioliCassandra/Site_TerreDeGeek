@@ -38,11 +38,54 @@
 ~~~~~~~~~~~~~~~~~~~~~-->
 <main>
   <section>
-    <h2>Tous nos produits</h2>
-    <form>
-      
-    </form>
+    <h2>Nos produits</h2>
+    <div id="sorts">
+      <form method="POST" action="#.php">
+        <div>
+        <p>
+          <select name="sort_category" id="sort_category">
+            <optgroup label="Catégories">
+              <option value="computer_products">Produits informatiques</option>
+              <option value="telephony_products">Produits téléphonie</option>
+              <option value="derivative_products">Produits dérivés</option>
+            </optgroup>
+          </select>
+        </p>
+      </div>
+      <div>
+        <p>
+          <input type="range" min="1" max="2000" step="50">
+        </p>
+      </div>
+      <div>
+        <p>
+          <select name="sort_reviews" id="sort_reviews">
+            <optgroup label="Avis clients">
+              <option value="growing_opinion">Avis croissants</option>
+              <option value="descending_opinion">Avis décroissant</option>
+              <option value="recent_opinion">Avis récent</option>
+            </optgroup>
+          </select>
+        </p>
+      </div>
+      <div>
+        <p>
+          <select name="places_availability" id="places_availability">
+            <optgroup label="Lieux de disponibilité">
+              <option value="neufchatelenbray">Neufchâtel-en-Bray</option>
+              <option value="nouzonville">Nouzonville</option>
+              <option value="serqueux">Serqueux</option>
+              <option value="forgeleseaux">Forge-les-eaux</option>
+            </optgroup>
+          </select>
+        </p>
+      </div>
+      </form>
+    </div>
   </section>
+  <div>
+    <p id="p_listproducts">Aucun produits disponible pour le moment</p>
+  </div>
 </main>
 <!--~~~~~~~~~~~~~~~~~~~~
     End main
