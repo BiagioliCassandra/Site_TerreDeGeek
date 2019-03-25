@@ -19,12 +19,12 @@ Spécifications techniques
 - Site mis en ligne via une GH-page
 
 Compétences acquises :
-  Réaliser des formulaires HTML
-  Réaliser des tableaux HTML
-  Utiliser les attributs HTML
-  Perfectionner la sémantique de son HTML
-  Positionner ses éléments
-  Mettre en forme ses éléments HTML via le CSS
-  Utiliser des ressources extérieures pour les polices et les icônes
-  Produire un CSS maintenable et réutilisable
-  Comprendre le concept DRY
+- Réaliser des formulaires HTML
+- Réaliser des tableaux HTML
+- Utiliser les attributs HTML
+- Perfectionner la sémantique de son HTML
+- Positionner ses éléments
+- Mettre en forme ses éléments HTML via le CSS
+- Utiliser des ressources extérieures pour les polices et les icônes
+- Produire un CSS maintenable et réutilisable
+- Comprendre le concept DRY
